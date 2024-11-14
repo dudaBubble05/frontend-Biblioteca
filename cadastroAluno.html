@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Alunos</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="listaAlunos.html">ALUNOS</a>
+            <a href="listaLivros.html">LIVROS</a>
+            <a href="">EMPRÉSTIMO</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DE ALUNO</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label for="nome">
+                Nome
+                <br>
+                <input type="text" name="input-nome-cliente" placeholder="Nome completo" required>
+            </label>
+            <label for="R.A.">
+                RA
+                <br>
+                <input type="number" name="input-ra-aluno" placeholder="Informe o R.A." required>
+            </label>
+            <label for="E-mail">
+                E-mail
+                <br>
+                <input type="text" name="input-email-aluno" placeholder="Informe o E-mail" required>
+            </label>
+            <label for="telefone">
+                Telefone
+                <br>
+                <input type="number" name="input-telefone-cliente" placeholder="Informe o Telefone" required>
+            </label>
+            <label for="Data de Nascimento">
+                Data de Nascimento
+                <br>
+                <input type="date" name="input-dataNascimento-aluno" placeholder="dd/mm/aaaa" required>
+            </label>
+
+            <input type="button" value="CADASTRAR">
+        </form>
+    </div>
+</body>
+
+</html>

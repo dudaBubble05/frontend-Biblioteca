@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Livro</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="listaAlunos.html">ALUNOS</a>
+            <a href="listaLivros.html">LIVROS</a>
+            <a href="">EMPRÉSTIMO</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DE LIVROS</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label for="Título">
+                Título
+                <br>
+                <input type="text" name="input-título-livro" placeholder="Insira o título do livro" required>
+            </label>
+            <label for="Autor">
+                Autor
+                <br>
+                <input type="text" name="input-autor-livro" placeholder="Informe o nome do autor" required>
+            </label>
+            <label for="Editora">
+                Editora
+                <br>
+                <input type="text" name="input-editora-livro" placeholder="Insira o nome da Editora" required>
+            </label>
+            <label for="ISBN">
+                ISBN
+                <br>
+                <input type="number" name="input-isbn-livro" placeholder="Insira o ISBN" required>
+            </label>
+            <label for="Ano de Publicação">
+                Ano de Publicação
+                <br>
+                <input type="date" name="input-anoPublicacao-livro" placeholder="dd/mm/aaaa" required>
+            </label>
+            <label for="Quantidade Disponível">
+                Quantidade Disponível
+                <br>
+                <input type="number" name="input-quantDisponivel-livro" placeholder="Informe a quantidade disponível" required>
+            </label>
+
+            <input type="button" value="CADASTRAR">
+        </form>
+    </div>
+</body>
+
+</html>
