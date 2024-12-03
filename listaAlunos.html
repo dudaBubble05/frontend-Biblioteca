@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/navegacao.css">
     <link rel="stylesheet" href="css/listagem.css">
 </head>
-<body>
+<body onload="recuperarListaAluno()">
     <header>
         <nav>
             <a href="listaAlunos.html">ALUNOS</a>
@@ -35,51 +35,18 @@
                     <th>ID ALUNO</th>
                     <th>R.A.</th>
                     <th>NOME</th>
+                    <th>DATA DE NASCIMENTO</th>
+                    <th>ENDEREÇO</th>
                     <th>E-MAIL</th>
                     <th>TELEFONE</th>
-                    <th>DATA DE NASCIMENTO</th>
                     <th>AÇÕES</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>134.645.361-2</td>
-                    <td>Nathaniel Abram Josten</td>
-                    <td>abramNeil@gmail.com</td>
-                    <td>(92) 98125-1137</td>
-                    <td>19/01/1988</td>
-                    <td>
-                        <img src="assets/icons/pencil-square.svg" alt="editar">
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>782.945.279-5</td>
-                    <td>Andrew Joseph Minyard</td>
-                    <td>AJminyard@gmail.com</td>
-                    <td>(92) 99756-0450</td>
-                    <td>04/11/1986</td>
-                    <td>
-                        <img src="assets/icons/pencil-square.svg" alt="editar">
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>511.234.466-7</td>
-                    <td>Kevin Wymack Day</td>
-                    <td>kDay02@gmail.com</td>
-                    <td>(92) 99816-0676</td>
-                    <td>22/02/1986</td>
-                    <td>
-                        <img src="assets/icons/pencil-square.svg" alt="editar">
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
-                </tr>
+                
             </tbody>
         </table>
     </div>
+    <script src="JS/aluno.js"></script>
 </body>
 </html>
